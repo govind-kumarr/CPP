@@ -28,11 +28,17 @@ public:
 int main()
 {
   Hero Santosh;
+  //! Dynamically created
+
   cout << "size : " << sizeof(Santosh) << endl;
+
   cout << "health : " << Santosh.getHealth() << endl;
+
   Santosh.setHealth(80);
   cout << "health : " << Santosh.getHealth() << endl;
+
   cout << "level : " << Santosh.level << endl;
+
   Santosh.print();
   return 0;
 };
